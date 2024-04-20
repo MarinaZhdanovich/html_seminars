@@ -1,4 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@600;800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  background: #020A18;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+p,
+a,
+button {
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 1146px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 39px 0;
 }
