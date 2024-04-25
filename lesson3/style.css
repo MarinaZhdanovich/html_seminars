@@ -83,7 +83,9 @@ button {
 }
 
 .mainContent__leftSide-btnList {
-
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
 .mainContent__leftSide-btnList button {
@@ -91,13 +93,21 @@ button {
   border-radius: 5px;
   background:#3A68B8;
   font-size: 20px;
+  border: none;
   cursor: pointer;
 }
+
+.btn__play {
+  display: flex;
+  gap: 10px;
+}
+
 
 .footer {
   margin-bottom: 109px;
 }
 
 .logos {
-
+  display: flex;
+  justify-content: space-between;
 }
