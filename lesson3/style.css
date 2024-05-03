@@ -53,7 +53,6 @@ button {
 
 .mainContent__leftSide {
   max-width: 604px;
-
 }
 
 .mainContent__leftSide h2 {
@@ -140,4 +139,35 @@ button {
   grid-column: span 2;
   grid-row: span 2;
   gap: 60px;
+}
+
+@media(min-width: 848px) and (max-width: 1146px) {
+  .container {
+    max-width: 767px;
+  }
+
+  .navigation {
+    gap: 32px;
+  }
+
+  .mainContent {
+    flex-direction: column;
+    align-items: center;
+    gap: 128px;
+  }
+
+  .mainContent__leftSide h2 {
+    font-size: 16px;
+  }
+
+  .mainContent__leftSide h1 {
+    font-size: 48px;
+  }
+
+  .logos {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    max-width: 534px;
+  }
 }
