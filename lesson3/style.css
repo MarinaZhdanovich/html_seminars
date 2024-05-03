@@ -170,4 +170,18 @@ button {
     gap: 32px;
     max-width: 534px;
   }
+
+  .cardList {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    justify-items: center;
+  }
+  .hideCard {
+    display: none;
+  }
+
+  .card {
+    width: 362px;
+    background-color: #101825;
+  }
 }
