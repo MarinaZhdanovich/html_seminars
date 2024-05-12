@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.product {
+  width: 250px;
+  padding: 24px;
+  border: 1px solid #000;
+}
+
+.product__img {
+  background-color: forestgreen;
+  height: 150px;
+  position: relative;
+}
+
+.product__img::after {
+  content: 'new';
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.product__img::before {
+  content: 'new';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+}
+
+svg:hover {
+  transform: scale(0.1);
+  fill: red;
+}
+
+svg:active {
+  fill: rgb(35, 196, 115);
+}
