@@ -1,0 +1,22 @@
+$widthSite: 1200px;
+$colorText: #8A2BE2;
+$gapGrid: 16px;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// стили для текста
+
+.color-text {
+  color: $colorText;
+}
+
+.nav {
+  display: flex;
+  gap: $gapGrid;
+  &__link {
+    text-decoration: none;
+  }
+}
