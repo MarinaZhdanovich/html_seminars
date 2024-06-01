@@ -96,6 +96,22 @@ padding-left: calc(50% - 570px);
 padding-right: calc(50% - 570px);
 }
 
+.top {
+  overflow: hidden;
+}
+
+#check {
+  position: absolute;
+  left: -99999px;
+  visibility: hidden;
+}
+
+#check:checked ~ .menu {
+  right: -232px;
+
+}
+
+
 .header {
   margin-top: 90px;
   display: flex;
@@ -103,6 +119,7 @@ padding-right: calc(50% - 570px);
   align-items: center;
   background-color: #222;
   height: 75px;
+  position: relative;
 }
 
 .menu {
@@ -111,6 +128,10 @@ padding-right: calc(50% - 570px);
   width: 232px;
   padding: 32px;
   box-sizing: border-box;
+  position: absolute;
+  top: 75px;
+  right: 0;
+  transition: right 0.7s;
 }
 
 .menu__hea {
@@ -120,9 +141,10 @@ padding-right: calc(50% - 570px);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-bottom: 4px;
 }
 
-.menu a {
+.menu__link {
   color: #6F6E6E;
   font-family: Lato;
   font-size: 14px;
@@ -130,10 +152,17 @@ padding-right: calc(50% - 570px);
   font-weight: 400;
   line-height: normal;
   text-decoration: none;
+  &:hover {
+    color: #F16D7F;
+  }
 }
 
-.menu ul {
+.menu__ul {
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  padding-left: 20px;
 }
 
 .menu__subheading {
@@ -143,6 +172,8 @@ padding-right: calc(50% - 570px);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 12px;
+  margin-top: 20px;
 }
 
 .promo {
