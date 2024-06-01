@@ -33,4 +33,39 @@
   width: 300px;
   border: 1px solid #000;
   height: 200px;
+}
+
+summary {
+  display: block;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.sort {
+  display: flex;
+  gap: 28px;
+}
+
+.details {
+  position: relative;
+}
+.details__box {
+  position: absolute;
+  left: -9px;
+  top: 22px;
+  background: #FFF;
+  box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
+  padding: 7px 9px 12px;
+  width: 79px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.center {
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
 }/*# sourceMappingURL=style.css.map */
