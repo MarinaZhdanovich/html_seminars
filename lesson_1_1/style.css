@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 .nav__link {
@@ -68,4 +74,58 @@ summary::-webkit-details-marker {
 .center {
   padding-left: calc(50% - 570px);
   padding-right: calc(50% - 570px);
+}
+
+.header {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  height: 75px;
+}
+
+.menu {
+  filter: drop-shadow(6px 4px 35px rgba(0, 0, 0, 0.21));
+  background: #FFF;
+  width: 232px;
+  padding: 32px;
+  box-sizing: border-box;
+}
+
+.menu__hea {
+  color: #000;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.menu a {
+  color: #6F6E6E;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu__subheading {
+  color: #F16D7F;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.promo {
+  height: 764px;
+  background: #F8F3F4;
 }/*# sourceMappingURL=style.css.map */
