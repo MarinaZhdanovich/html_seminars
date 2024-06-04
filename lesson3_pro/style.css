@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-family: 'merriweatherregular';
+
+}
+
+.text {
+  font-family: 'open_sansregular';
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+
+.border{
+  max-width: 250px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, red, purple);
+  padding: 3px;
+}
+
+.heading {
+  color: transparent;
+  -webkit-text-stroke: 1px blue;
+  font-size: 56px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-right-width: 104px;
+  border-left-width: 96px;
+  border-bottom: 156px solid rgb(219, 16, 185);
+}
